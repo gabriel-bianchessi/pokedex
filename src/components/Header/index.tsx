@@ -1,5 +1,7 @@
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { Link } from 'react-router-dom'
 import { Header } from './styles'
+
 
 export default function() {
   return (<>
@@ -11,8 +13,8 @@ export default function() {
         </div>
         <nav>
           <ul>
-            <li><Link to={"/"}>Pokedex</Link></li>
-            <li><a href="/pokedex">Pokedex</a></li>
+            <li><Link to={"/"}>Home</Link></li>
+            <li><a href="/">My team</a></li>
           </ul>
         </nav>
       </div>

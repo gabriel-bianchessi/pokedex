@@ -6,9 +6,10 @@ export const Header = styled.header`
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 16px;
+  padding: 15px;
   position: fixed;
   width: 100%;
+  height:10vh;
 
   .headerContent {
     align-items: center;
@@ -22,6 +23,25 @@ export const Header = styled.header`
     display: flex;
     align-items: center;
     text-decoration: none;
-    
+  }
+
+  nav {
+    width: 20%;
+  }
+
+  ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+  }
+
+  a {
+    text-decoration: none;
+    color: #586069; 
+
+    &:hover {
+      text-decoration: underline;
+    }
   }
 `
