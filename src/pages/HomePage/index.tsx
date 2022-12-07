@@ -69,6 +69,7 @@ export default function () {
     setLoading(true)
     getPokemons()
     setLoading(false)
+    document.title = "Pokedex"
   }, [])
 
   return (
