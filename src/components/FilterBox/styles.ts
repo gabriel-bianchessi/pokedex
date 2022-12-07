@@ -1,35 +1,25 @@
-import styled from 'styled-components'
+import styled from "styled-components"
 
 export const FilterBox = styled.div`
-  background-color: #ffffff;
-  border: 1px solid #e1e4e8;
   border-radius: 6px;
+  background-color: #ffffff;
   display: flex;
+  flex-direction: row;
   align-items: center;
-  justify-content: space-between;
-  padding: 8px 16px;
+  justify-content: center;
   width: 100%;
-  margin-bottom: 16px;
-  height: 7vh;
+  height: 100%;
 
-  input {
+  flex: 1;
+
+  select {
+    width: 100%;
+    height: 7vh;
     border: none;
     outline: none;
     background-color: #ffffff;
-    color: rgb(125,125,125);
-    width: 100%;
+    color: rgb(125, 125, 125);
     font-size: 14px;
-    margin-left: 8px;
-  }
-
-  .searchBox {
-    display: flex;
-    align-items: center;
-    width: 100%;
-    margin-left: 8px;
-  }
-
-  .fa-search {
-    color: rgb(125,125,125);
+    padding: 8px 16px;
   }
 `

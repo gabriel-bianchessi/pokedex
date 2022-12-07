@@ -1,14 +1,18 @@
-import { FilterBox} from "./styles"
-import { faSearch } from "@fortawesome/free-solid-svg-icons"
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
+import { Dispatch, SetStateAction } from "react"
+import { PokemonCardProps } from "../PokemonCard"
+import { FilterBox } from "./styles"
+import TypeFilter from "./TypeFilter"
 
-export default () => {
-  return (<>
-    <FilterBox>
-      <div className="searchBox">
-        <FontAwesomeIcon icon={faSearch} className="fa-search"/>
-        <input type="text" placeholder="Procure seu pokémon"/>
-      </div>
-    </FilterBox>
-  </>)
+interface Props {
+  setPokemons: Dispatch<SetStateAction<PokemonCardProps[]>>
+}
+
+export default function ({ setPokemons }: Props) {
+  return (
+    <>
+      <FilterBox>
+        <TypeFilter setPokemons={setPokemons}/>
+      </FilterBox>
+    </>
+  )
 }
