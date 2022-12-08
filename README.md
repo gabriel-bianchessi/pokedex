@@ -1,24 +1,16 @@
 # Pokedex
 
-Site para se inspirar no design: 
+Site usado para se inspirar no design: 
 https://dribbble.com/shots/15128634-Pokemon-Pokedex-Website-Redesign-Concept
 https://github.com/topics/pokedex 
 
-# Layout Básico 
+## Para rodar o projeto: 
 
-[] Montar layout com componentes genéricos
-[] Buscar pokémons na API
-[] Filtro de nome
-[] Filtro de tipo
+Clone o repositório na sua máquina.
 
+Entre na pasta e rode os seguintes comandos:
 
-Criar um time de pokemons com 5 pokemons (total de pokemon do time);
-Listar todos os pokemons da API;
-Filtrar tanto por nome quanto por tipo;
-Seja possível visualizar as evoluções dos pokemons.
+```npm i```
+```npm run dev```
 
-Recurso API a ser utilizada: https://pokeapi.co/  
-Prazo de entrega: 10 dias corridos a partir do recebimento desta mensagem. (07/12)
-Desenvolvimento pode ser web ou mobile utilize sua criatividade. 
-IMPORTANTE: caso não tenha finalizado o teste no prazo estipulado, encaminhe mesmo assim até a etapa desenvolvida para avaliar a evolução, ela será bem importante para os próximos passos.
-Bom trabalho e Boa sorte.
+Fazendo isso você conseguirá vizualizar o que foi feito no projeto :) 
